@@ -432,7 +432,7 @@ python-versions = "*"
 
 [[package]]
 name = "pyfakefs"
-version = "4.4.0"
+version = "4.5.0"
 description = "pyfakefs implements a fake file system that mocks the Python file system modules."
 category = "dev"
 optional = false
@@ -632,7 +632,7 @@ python-versions = "*"
 
 [[package]]
 name = "sphinx"
-version = "4.0.2"
+version = "4.0.3"
 description = "Python documentation generator"
 category = "dev"
 optional = false
@@ -658,7 +658,7 @@ sphinxcontrib-serializinghtml = "*"
 
 [package.extras]
 docs = ["sphinxcontrib-websupport"]
-lint = ["flake8 (>=3.5.0)", "isort", "mypy (>=0.800)", "docutils-stubs"]
+lint = ["flake8 (>=3.5.0)", "isort", "mypy (>=0.900)", "docutils-stubs", "types-typed-ast", "types-pkg-resources", "types-requests"]
 test = ["pytest", "pytest-cov", "html5lib", "cython", "typed-ast"]
 
 [[package]]
@@ -904,7 +904,7 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=1.2.3)", "pytest-flake8", "pyt
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7, !=3.9"
-content-hash = "7b61c3e6ad8ff1e0e1d3b72133287b9060b3614595c9ecf3f327d5a3b170eddf"
+content-hash = "aa6503f066101377227c3d620d2bb212571e7a2fd8774ae0e547340e552fdd03"
 
 [metadata.files]
 alabaster = [
@@ -1210,8 +1210,8 @@ pyexpect = [
     {file = "pyexpect-1.0.21.tar.gz", hash = "sha256:96e900d6af928a94c2a75b4935ddda44872c218121d0467c549ae19e7608a9a2"},
 ]
 pyfakefs = [
-    {file = "pyfakefs-4.4.0-py3-none-any.whl", hash = "sha256:1ac3b2845dabe69af56c20691b9347914581195ccdde352535fb7d4ff0055c19"},
-    {file = "pyfakefs-4.4.0.tar.gz", hash = "sha256:082d863e0e2a74351f697da404e329a91e18e5055942e59d1b836e8459b2c94c"},
+    {file = "pyfakefs-4.5.0-py3-none-any.whl", hash = "sha256:46234fa2dbce8ffb693ec906638449342afe83e45fa832932351d5050048159b"},
+    {file = "pyfakefs-4.5.0.tar.gz", hash = "sha256:58b017b3437bbe97803a23755876c6d6aeb5aea37e52cec15e5d86b59c4c7295"},
 ]
 pyflakes = [
     {file = "pyflakes-2.3.1-py2.py3-none-any.whl", hash = "sha256:7893783d01b8a89811dd72d7dfd4d84ff098e5eed95cfa8905b22bbffe52efc3"},
@@ -1347,8 +1347,8 @@ snowballstemmer = [
     {file = "snowballstemmer-2.1.0.tar.gz", hash = "sha256:e997baa4f2e9139951b6f4c631bad912dfd3c792467e2f03d7239464af90e914"},
 ]
 sphinx = [
-    {file = "Sphinx-4.0.2-py3-none-any.whl", hash = "sha256:d1cb10bee9c4231f1700ec2e24a91be3f3a3aba066ea4ca9f3bbe47e59d5a1d4"},
-    {file = "Sphinx-4.0.2.tar.gz", hash = "sha256:b5c2ae4120bf00c799ba9b3699bc895816d272d120080fbc967292f29b52b48c"},
+    {file = "Sphinx-4.0.3-py3-none-any.whl", hash = "sha256:5747f3c855028076fcff1e4df5e75e07c836f0ac11f7df886747231092cfe4ad"},
+    {file = "Sphinx-4.0.3.tar.gz", hash = "sha256:dff357e6a208eb7edb2002714733ac21a9fe597e73609ff417ab8cf0c6b4fbb8"},
 ]
 sphinx-rtd-theme = [
     {file = "sphinx_rtd_theme-0.5.2-py2.py3-none-any.whl", hash = "sha256:4a05bdbe8b1446d77a01e20a23ebc6777c74f43237035e76be89699308987d6f"},
